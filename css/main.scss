@@ -44,18 +44,72 @@
   }
 
   &__new-arrivals {
-    height: 300px;
     margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header-new-arrivals {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  &__pictures-new-arrivals {
+    display: flex;
+  }
+
+  &__picture-new-arrivals {
+    width: 200px;
+    height: 270px;
 
     outline: 1px solid violet;
   }
 
   &__instagram {
-    height: 400px;
     margin: 30px 50px;
-
-    outline: 1px solid violet;
   }
+
+  &__header-instagram {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  &__footer-instagram {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  &__pictures-instagram {
+    display: flex;
+    width: 800px;
+  }
+
+  &__picture-instagram {
+
+    &_big {
+      width: 50%;
+      height: 400px;
+
+      outline: 1px solid violet;
+    }
+
+    &_small {
+      width: 200px;
+      height: 200px;
+
+      outline: 1px solid violet;
+    }
+  }
+
+  &__pictures-instagram-set {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+
 }
 
 .fs-header {
