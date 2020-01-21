@@ -1,0 +1,65 @@
+.fs-home-page {
+  width: 900px;
+  margin: 0 auto;
+
+  &__article {
+    height: 500px;
+
+    &_left-down {
+      background-color: #3a2511;
+    }
+
+    &_left-top {
+      background-color: #decfa7;
+    }
+
+    &_left {
+      background-color: #c9cb7b;
+    }
+
+    &_right-down {
+      background-color: #99cb7b;
+    }
+  }
+
+  &__pictures {
+    display: flex;
+    height: 400px;
+  }
+
+  &__picture {
+    width: 300px;
+
+    &_left {
+      background-color: #b9c8cb;
+    }
+
+    &_center {
+      background-color: #dab4af;
+    }
+
+    &_right {
+      background-color: #d3eae2;
+    }
+  }
+
+  &__new-arrivals {
+    height: 300px;
+    margin: 30px 50px;
+
+    outline: 1px solid violet;
+  }
+
+  &__instagram {
+    height: 400px;
+    margin: 30px 50px;
+
+    outline: 1px solid violet;
+  }
+}
+
+.fs-header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
