@@ -1,4 +1,5 @@
 .fs-home-page {
+  position: relative;
   width: 900px;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -109,12 +110,39 @@
     flex-wrap: wrap;
     width: 50%;
   }
-
-
 }
 
 .fs-header {
   position: absolute;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  width: 840px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 30px;
+  color: #fff;
+  box-sizing: content-box;
+
+  &__menu {
+    display: flex;
+    font-size: 10px;
+  }
+
+  &__menu-item {
+    margin-right: 20px;
+  }
+
+  &__communication {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__communication-item {
+    margin-left: 20px;
+  }
 }
