@@ -4,9 +4,12 @@
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
 
-  &__article {
+  &__content {
+    // position: relative;
+    width: 900px;
     height: 500px;
 
+    outline: 1px solid violet;
     &_left-down {
       background-color: #3a2511;
     }
@@ -24,25 +27,46 @@
     }
   }
 
+  &__article {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    box-sizing: content-box;
+    color: #fff;
+    padding-top: 300px;
+    padding-left: 50px;
+  }
+
+  &__article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__article-text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__article-button {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+  }
+
   &__pictures {
     display: flex;
     height: 400px;
   }
 
-  &__picture {
+  &__picture_small {
     width: 300px;
 
-    &_left {
-      background-color: #b9c8cb;
-    }
-
-    &_center {
-      background-color: #dab4af;
-    }
-
-    &_right {
-      background-color: #d3eae2;
-    }
+    outline: 1px solid violet;
   }
 
   &__new-arrivals {
