@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch --output-style expanded css/main.scss css/main.css",
+    "clear": "rimraf css/",
+    "scss": "node-sass --output-style expanded scss/ --output css/",
+    "scss-watch": "node-sass --watch --output-style expanded scss/ --output css/",
+    "dev": "npm run clear && npm run scss && npm run scss-watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/yuliya-zhukova/fashion-store#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "rimraf": "^3.0.0"
   }
 }
