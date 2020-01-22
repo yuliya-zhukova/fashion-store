@@ -35,6 +35,7 @@
     color: #fff;
     padding-top: 300px;
     padding-left: 50px;
+    text-transform: uppercase;
   }
 
   &__article-title {
@@ -46,6 +47,7 @@
   &__article-text {
     font-size: 10px;
     margin-bottom: 20px;
+    text-transform: none;
   }
 
   &__article-button {
@@ -73,6 +75,7 @@
     margin: 30px 50px;
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
   }
 
   &__header-new-arrivals {
@@ -93,6 +96,7 @@
 
   &__instagram {
     margin: 30px 50px;
+    text-transform: uppercase;
   }
 
   &__header-instagram {
@@ -146,6 +150,7 @@
   margin: 0 30px;
   color: #fff;
   box-sizing: content-box;
+  text-transform: uppercase;
 
   &__menu {
     display: flex;
