@@ -5,6 +5,54 @@
   text-transform: uppercase;
 
   &__content {
+    margin-top: 10px;
+  }
+
+  &__product-card,
+  &__look {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__product-picture {
+    width: 350px;
+    height: 520px;
+  }
+
+  &__look-picture {
+    width: 275px;
+    height: 360px;
+  }
+
+  &__side-column {
+    width: 200px;
+  }
+
+  &__look-title {
+    width: 350px;
+    text-transform: none;
+  }
+
+  &__also-like {
     margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+
+  &__header-also-like {
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__pictures-also-like {
+    display: flex;
+  }
+
+  &__picture-also-like {
+    width: 200px;
+    height: 270px;
   }
 }
