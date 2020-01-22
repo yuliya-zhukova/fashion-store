@@ -1,11 +1,10 @@
 .fs-home-page {
   position: relative;
-  width: 900px;
+  width: $main-width;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
 
   &__content {
-    width: 900px;
     height: 500px;
 
     &_left-down {

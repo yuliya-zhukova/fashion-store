@@ -1,5 +1,5 @@
 .fs-catalog-page {
-  width: 900px;
+  width: $main-width;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
@@ -52,7 +52,6 @@
   }
 
   &__picture {
-    widows: 280px;
     height: 400px;
     background-color: #ebebeb;
   }
