@@ -31,9 +31,22 @@
     width: 330px;
     box-sizing: content-box;
     color: #fff;
-    padding-top: 300px;
-    padding-left: 50px;
     text-transform: uppercase;
+
+    &_left-down {
+      padding-top: 300px;
+      padding-left: 100px;
+    }
+
+    &_left {
+      padding-top: 150px;
+      padding-left: 100px;
+    }
+
+    &_right-down {
+      padding-top: 300px;
+      padding-left: 500px;
+    }
   }
 
   &__article-title {
