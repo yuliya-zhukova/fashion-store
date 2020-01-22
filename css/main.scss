@@ -5,11 +5,9 @@
   font-family: 'Ubuntu', sans-serif;
 
   &__content {
-    // position: relative;
     width: 900px;
     height: 500px;
 
-    outline: 1px solid violet;
     &_left-down {
       background-color: #3a2511;
     }
@@ -67,8 +65,6 @@
 
   &__picture_small {
     width: 300px;
-
-    outline: 1px solid violet;
   }
 
   &__new-arrivals {
@@ -90,8 +86,6 @@
   &__picture-new-arrivals {
     width: 200px;
     height: 270px;
-
-    outline: 1px solid violet;
   }
 
   &__instagram {
@@ -121,15 +115,11 @@
     &_big {
       width: 50%;
       height: 400px;
-
-      outline: 1px solid violet;
     }
 
     &_small {
       width: 200px;
       height: 200px;
-
-      outline: 1px solid violet;
     }
   }
 
