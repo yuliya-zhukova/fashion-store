@@ -1,0 +1,59 @@
+.fs-catalog-page {
+  width: 900px;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+
+  &__content {
+    display: flex;
+    margin: 30px 50px;
+  }
+
+  &__side-column {
+    width: 200px;
+    margin-right: 50px;
+  }
+
+  &__categories-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__categories-item {
+    font-size: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &__filters {
+    font-size: 10px;
+  }
+
+  &__filters-header {
+    opacity: 0.5;
+    margin: 20px 0;
+  }
+
+  &__filters-item {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &__filters-icon {
+    margin-right: 10px;
+  }
+
+  &__catalog-set {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-gap: 40px;
+  }
+
+  &__picture {
+    widows: 280px;
+    height: 400px;
+    background-color: #ebebeb;
+  }
+}
