@@ -1,3 +1,4 @@
+@import "header";
 @import "footer";
 
 .fs-home-page {
@@ -142,48 +143,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-  }
-}
-
-.fs-header {
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(3, 280px);
-  width: 840px;
-  height: 40px;
-  line-height: 40px;
-  margin: 0 30px;
-  color: #fff;
-  box-sizing: content-box;
-  text-transform: uppercase;
-
-  &_black {
-    position: relative;
-    color: #000;
-  }
-
-  &__menu {
-    display: flex;
-    font-size: 10px;
-  }
-
-  &__menu-item {
-    margin-right: 20px;
-  }
-
-  &__communication {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 10px;
-  }
-
-  &__title {
-    text-align: center;
-    font-weight: bold;
-  }
-
-  &__communication-item {
-    margin-left: 20px;
   }
 }
 
