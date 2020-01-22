@@ -27,6 +27,12 @@
 
   &__side-column {
     width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__product-price {
+    display: flex;
   }
 
   &__look-title {
