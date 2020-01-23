@@ -7,14 +7,34 @@
   }
 
   &__container-header {
-    display: block;
+    display: flex;
     height: 30px;
+    font-size: 12px;
     cursor: pointer;
+  }
+
+  &__sign {
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-image: url('../img/expand-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
+    &_checked {
+      background-image: url('../img/collapse-icon.png');
+    }
   }
 
   &__container-content {
     overflow: hidden;
     display: none;
+    width: 180px;
+    font-size: 11px;
+    text-transform: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   &__input:checked ~ &__container-content {

@@ -15,8 +15,8 @@
   }
 
   &__product-picture {
-    width: 330px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     background-color: #999;
   }
 
@@ -29,7 +29,8 @@
   &__side-column {
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    width: 200px;
+    padding: 30px;
   }
 
   &__product-name {
@@ -89,6 +90,7 @@
 
   &__controls {
     display: flex;
+    margin-bottom: 20px;
   }
 
   &__product-button {
