@@ -1,6 +1,6 @@
 .fs-accordion {
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
   &__input {
     display: none;
@@ -38,5 +38,19 @@
 
   &__input:checked ~ &__container-content {
     display: block;
+  }
+
+  &_catalog-card &__container-header {
+      font-size: 10px;
+      cursor: pointer;
+  }
+
+  &__list {
+    display: block;
+  }
+
+  &__list-item {
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 }

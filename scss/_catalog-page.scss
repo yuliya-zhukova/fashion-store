@@ -26,23 +26,10 @@
     cursor: pointer;
   }
 
-  &__filters {
-    font-size: 10px;
-  }
-
   &__filters-header {
     opacity: 0.5;
     margin: 20px 0;
-  }
-
-  &__filters-item {
-    display: flex;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-
-  &__filters-icon {
-    margin-right: 10px;
+    font-size: 10px;
   }
 
   &__catalog-set {
