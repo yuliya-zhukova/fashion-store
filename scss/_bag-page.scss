@@ -1,0 +1,10 @@
+.fs-bag-page {
+  width: $main-width;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+
+  &__content {
+    margin-top: 10px;
+  }
+}
