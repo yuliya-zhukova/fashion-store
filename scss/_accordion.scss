@@ -1,6 +1,6 @@
 .fs-accordion {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 
   &__input {
     display: none;
@@ -30,7 +30,6 @@
   &__container-content {
     overflow: hidden;
     display: none;
-    width: 180px;
     font-size: 11px;
     text-transform: none;
     margin-left: 20px;
