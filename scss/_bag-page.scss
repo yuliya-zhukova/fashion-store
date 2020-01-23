@@ -5,6 +5,26 @@
   text-transform: uppercase;
 
   &__content {
-    margin-top: 10px;
+    width: 500px;
+    margin: 10px auto;
+  }
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    padding: 5px;
+    border-bottom: 1px solid #999;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  &__number {
+    font-size: 10px;
+    color: #999;
+    text-transform: none;
+    align-items: center;
   }
 }
