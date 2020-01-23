@@ -11,28 +11,104 @@
   &__product-card,
   &__look {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
   }
 
   &__product-picture {
-    width: 350px;
-    height: 520px;
+    width: 330px;
+    height: 500px;
+    background-color: #999;
   }
 
   &__look-picture {
-    width: 275px;
-    height: 360px;
+    width: 285px;
+    height: 380px;
+    background-color: #999;
   }
 
   &__side-column {
-    width: 200px;
     display: flex;
     flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  &__product-name {
+    font-size: 16px;
+    margin-bottom: 30px;
   }
 
   &__product-price {
     display: flex;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  &__money-type {
+    margin-right: 10px;
+  }
+
+  &__pre-order {
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #e5e5e5;
+  }
+
+  &__product-color-title,
+  &__product-size-title {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+
+  &__color-view {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #222;
+    margin-bottom: 20px;
+
+    &_grey {
+      background-color: #999;
+    }
+  }
+
+  &__product-size-bar {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  &__product-size-value {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 20px;
+
+    &_activ {
+      border-bottom: 1px solid #222;
+    }
+  }
+
+  &__controls {
+    display: flex;
+  }
+
+  &__product-button {
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+
+    &_add-bag {
+      width: 150px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    &_add-wishlist {
+      width: 40px;
+      background-image: url('../img/wishlist-icon.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 
   &__look-title {
@@ -60,5 +136,6 @@
   &__picture-also-like {
     width: 200px;
     height: 270px;
+    background-color: #999;
   }
 }
