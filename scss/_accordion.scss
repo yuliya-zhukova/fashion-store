@@ -1,0 +1,23 @@
+.fs-accordion {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    display: none;
+  }
+
+  &__container-header {
+    display: block;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__container-content {
+    overflow: hidden;
+    display: none;
+  }
+
+  &__input:checked ~ &__container-content {
+    display: block;
+  }
+}
