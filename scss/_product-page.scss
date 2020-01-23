@@ -115,7 +115,11 @@
 
   &__look-title {
     width: 350px;
+    font-size: 30px;
     text-transform: none;
+    padding-top: 70px;
+    padding-left: 150px;
+    box-sizing: border-box;
   }
 
   &__also-like {
