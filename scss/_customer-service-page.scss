@@ -3,4 +3,33 @@
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
+
+  &__return {
+    display: flex;
+    margin-left: 20px;
+    font-size: 8px;
+    color: #999;
+    margin-bottom: 30px;
+  }
+
+  &__return-item {
+    margin-right: 10px;
+  }
+
+  &__side-column {
+    width: 200px;
+    margin-left: 50px;
+  }
+
+  &__categories-header {
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: #999;
+  }
+
+  &__categories-item {
+    font-size: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
 }
