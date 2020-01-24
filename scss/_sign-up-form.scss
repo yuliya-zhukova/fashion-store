@@ -1,0 +1,24 @@
+.fs-sign-up-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 400px;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+  padding: 30px 20px;
+  box-sizing: border-box;
+
+  &__close-icon {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/close-icon.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+}
