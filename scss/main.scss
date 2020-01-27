@@ -9,3 +9,11 @@
 @import "sign-up-form";
 @import "accordion";
 @import "price";
+
+.fs-wrapper {
+  position: relative;
+  width: $main-width;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
