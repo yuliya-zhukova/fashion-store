@@ -1,79 +1,54 @@
-.fs-customer-service-page {
+.fs-return {
+  display: flex;
+  margin-left: 20px;
+  font-size: 8px;
+  color: #999;
+  margin-bottom: 30px;
 
-  &__return {
-    display: flex;
-    margin-left: 20px;
-    font-size: 8px;
-    color: #999;
-    margin-bottom: 30px;
-  }
-
-  &__return-item {
+  &__item {
     margin-right: 10px;
   }
+}
 
-  &__content {
-    display: flex;
-    margin-bottom: 100px;
-  }
+.fs-customer-service {
+  width: 600px;
 
-  &__side-column {
-    width: 200px;
-    margin-left: 50px;
-  }
-
-  &__categories-header {
-    font-size: 10px;
-    margin-bottom: 20px;
-    color: #999;
-  }
-
-  &__categories-item {
-    font-size: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-
-  &__main {
-    width: 600px;
-  }
-
-  &__main-header {
+  &__header {
     font-size: 30px;
     font-weight: bold;
     text-transform: none;
   }
 
-  &__main-chapter-header {
+  &__chapter-header {
     color: #999;
     padding-bottom: 20px;
     margin: 70px 0 20px 0;
     border-bottom: 1px solid #e5e5e5;
   }
 
-  &__main-action {
+  &__action {
     padding-bottom: 20px;
     margin: 20px 0;
     border-bottom: 1px solid #e5e5e5;
   }
 
-  &__main-action-content {
+  &__action-content {
     display: none;
     margin-top: 20px;
     font-size: 12px;
     text-transform: none;
   }
 
-  &__main-action-title {
+  &__action-title {
     position: relative;
     margin-left: 40px;
 
-    &_checked .fs-customer-service-page__main-action-content {
+    &_checked .fs-customer-service__action-content {
       display: block;
     }
   }
 
-  &__main-action-title::before {
+  &__action-title::before {
     position: absolute;
     left: -40px;
     content: "";
@@ -85,11 +60,11 @@
     background-size: 50%;
   }
 
-  &__main-action-title_checked::before {
+  &__action-title_checked::before {
       background-image: url('../img/collapse-icon.png');
   }
 
-  &__main-chapter-info {
+  &__chapter-info {
     margin-top: 20px;
     font-size: 12px;
     color: #000;
