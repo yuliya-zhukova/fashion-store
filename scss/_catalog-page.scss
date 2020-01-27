@@ -1,38 +1,35 @@
-.fs-catalog-page {
+.fs-row {
 
-  &__content {
+  &_catalog {
     display: flex;
     margin: 30px 50px;
   }
+}
 
-  &__side-column {
-    width: 200px;
-    margin-right: 50px;
-  }
+.fs-side-column {
+  width: 200px;
+  margin-right: 50px;
+}
 
-  &__categories-header {
+.fs-categories {
+
+  &__header {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
   }
 
-  &__categories-item {
+  &__item {
     font-size: 10px;
     margin-bottom: 10px;
     cursor: pointer;
   }
+}
 
-  &__filters-header {
-    opacity: 0.5;
-    margin: 20px 0;
-    font-size: 10px;
-  }
-
-  &__catalog-set {
-    display: grid;
-    grid-template-columns: repeat(2, 280px);
-    grid-gap: 40px;
-  }
+.fs-catalog-set {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  grid-gap: 40px;
 
   &__picture {
     height: 400px;
