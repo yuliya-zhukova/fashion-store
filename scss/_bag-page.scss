@@ -1,12 +1,69 @@
-.fs-bag-page {
+.fs-checkout-button {
+  height: 40px;
+  color: #fff;
 
-  &__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    margin: 10px auto;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #000;
+  border: 1px solid #fff;
+
+  &_bag {
+    width: 220px;
   }
+}
+
+.fs-remove-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.fs-remove-button::before {
+  position: absolute;
+  left: -30px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/remove-icon.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.fs-dropdown-menu {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  font-size: 12px;
+
+  &__title {
+    margin-right: 5px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__item::after {
+    position: absolute;
+    margin-left: 5px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/selector-dropdown-icon.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    cursor: pointer;
+  }
+}
+
+.fs-bag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 10px auto;
 
   &__header {
     display: flex;
@@ -28,7 +85,7 @@
     align-items: center;
   }
 
-  &__bag-item {
+  &__item {
     position: relative;
     width: 100%;
     height: 350px;
@@ -57,52 +114,6 @@
     margin-bottom: 10px;
   }
 
-  &__dropdown-menu {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: -20px;
-    font-size: 12px;
-  }
-
-  &__menu-title {
-    margin-right: 5px;
-  }
-
-  &__menu-item {
-    position: relative;
-  }
-
-  &__menu-item::after {
-    position: absolute;
-    margin-left: 5px;
-    content: "";
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/selector-dropdown-icon.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    cursor: pointer;
-  }
-
-  &__remove-button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-
-  &__remove-button::before {
-    position: absolute;
-    left: -30px;
-    content: "";
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/remove-icon.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 40%;
-  }
-
   &__amount-total {
     display: flex;
     margin: 20px 0;
@@ -113,16 +124,6 @@
   &__amount-total-title {
     margin-right: 10px;
     text-transform: none;
-  }
-
-  &__checkout-button {
-    height: 40px;
-    color: #fff;
-    width: 220px;
-    font-size: 14px;
-    text-transform: uppercase;
-    background-color: #000;
-    border: 1px solid #fff;
   }
 
   &__pay-system {
