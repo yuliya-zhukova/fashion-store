@@ -1,4 +1,4 @@
-.fs-checkout-button {
+.fs-button {
   height: 40px;
   color: #fff;
 
@@ -9,6 +9,17 @@
 
   &_bag {
     width: 220px;
+  }
+
+  &_add-bag {
+    width: 150px;
+  }
+
+  &_add-wishlist {
+    width: 40px;
+      background-image: url('../img/wishlist-icon.png');
+      background-repeat: no-repeat;
+      background-position: center;
   }
 }
 
