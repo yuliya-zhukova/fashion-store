@@ -37,12 +37,6 @@
     padding-top: 30px;
   }
 
-  &__product-picture {
-    width: 180px;
-    height: 260px;
-    background-color: #e5e5e5;
-  }
-
   &__product-info {
     width: 250px;
     margin-left: 20px;
@@ -86,6 +80,5 @@
 
   &__pay-system-item_visa {
     background-image: url('../img/visa-logo.png');
-
   }
 }

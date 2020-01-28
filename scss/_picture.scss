@@ -1,0 +1,25 @@
+.fs-product-picture {
+  width: 350px;
+  height: 600px;
+  background-color: #999;
+
+  &_look {
+    width: 285px;
+    height: 380px;
+  }
+
+  &_kit {
+    width: 200px;
+    height: 270px;
+  }
+
+  &_bag {
+    width: 180px;
+    height: 260px;
+  }
+
+  &_catalog {
+    width: 280px;
+    height: 400px;
+  }
+}
