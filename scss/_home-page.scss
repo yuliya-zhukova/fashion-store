@@ -21,10 +21,6 @@
   }
 
   &__article {
-    display: flex;
-    flex-direction: column;
-    width: 330px;
-    box-sizing: content-box;
     color: #fff;
     text-transform: uppercase;
 
@@ -51,19 +47,10 @@
   }
 
   &__article-text {
+    width: 330px;
     font-size: 10px;
     margin-bottom: 20px;
     text-transform: none;
-  }
-
-  &__article-button {
-    width: 180px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 12px;
-    margin-bottom: 10px;
-    border: 1px solid #fff;
   }
 
   &__pictures {
