@@ -7,9 +7,25 @@
     height: 30px;
     font-size: 12px;
     text-align: center;
+
+    &_instagram {
+      text-align: start;
+    }
+  }
+
+  &__footer {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
   }
 
   &__pictures {
     display: flex;
+  }
+
+  &__pictures-set {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
   }
 }
