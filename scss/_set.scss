@@ -1,0 +1,15 @@
+.fs-set {
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__pictures {
+    display: flex;
+  }
+}
