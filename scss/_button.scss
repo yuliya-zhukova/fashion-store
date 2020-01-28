@@ -1,0 +1,46 @@
+.fs-button {
+  height: 40px;
+  color: #fff;
+
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #000;
+  border: 1px solid #fff;
+
+  &_bag {
+    width: 220px;
+  }
+
+  &_add-bag {
+    width: 150px;
+  }
+
+  &_add-wishlist {
+    width: 40px;
+      background-image: url('../img/wishlist-icon.png');
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  &_remove {
+    position: absolute;
+    height: 20px;
+    bottom: 20px;
+    right: 20px;
+    color: #000;
+    background-color: transparent;
+    border: none;
+
+    &::before {
+      position: absolute;
+      left: -30px;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-image: url('../img/remove-icon.png');
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 40%;
+    }
+  }
+}
