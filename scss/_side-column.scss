@@ -7,4 +7,17 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  &_look {
+    margin-right: 0;
+    margin-left: 150px;
+  }
+
+  &__title {
+    &_look {
+      font-size: 30px;
+      text-transform: none;
+      margin-top: 70px;
+    }
+  }
 }
