@@ -9,12 +9,29 @@
   }
 
   &__header {
+    display: flex;
+    justify-content: center;
     height: 30px;
     font-size: 12px;
     text-align: center;
 
     &_instagram {
-      text-align: start;
+      justify-content: start;
+    }
+
+    &-item {
+      margin-right: 20px;
+
+      &_shop::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url('../img/next-icon.png');
+        background-repeat: no-repeat;
+        background-position: 50% 25%;
+        background-size: 50%;
+      }
     }
   }
 
