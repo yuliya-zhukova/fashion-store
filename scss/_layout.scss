@@ -7,19 +7,18 @@
 }
 
 .fs-row {
+  display: flex;
 
   &_catalog {
-    display: flex;
     margin: 30px 50px;
-  }
-
-  &_service {
-    display: flex;
   }
 
   &_product,
   &_look {
-    display: flex;
     margin-bottom: 50px;
+  }
+
+  &_home {
+    display: block;
   }
 }
