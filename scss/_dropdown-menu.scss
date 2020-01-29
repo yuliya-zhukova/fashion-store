@@ -10,18 +10,18 @@
 
   &__item {
     position: relative;
-  }
 
-  &__item::after {
-    position: absolute;
-    margin-left: 5px;
-    content: "";
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/selector-dropdown-icon.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    cursor: pointer;
+    &::after {
+      position: absolute;
+      margin-left: 5px;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-image: url('../img/selector-dropdown-icon.png');
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      cursor: pointer;
+    }
   }
 }
