@@ -1,52 +1,36 @@
-.fs-home-page {
+.fs-collection {
+  position: relative;
+  height: 500px;
+  color: #fff;
 
-  &__content {
-    height: 500px;
+  outline: 1px solid violet;
+
+  &__location {
+    position: absolute;
 
     &_left-down {
-      background-color: #3a2511;
-    }
-
-    &_left-top {
-      background-color: #decfa7;
+      top: 300px;
+      left: 100px;
     }
 
     &_left {
-      background-color: #c9cb7b;
+      top: 150px;
+      left: 100px;
     }
 
     &_right-down {
-      background-color: #99cb7b;
+      top: 300px;
+      left: 500px;
     }
   }
 
-  &__article {
-    color: #fff;
-    text-transform: uppercase;
-
-    &_left-down {
-      padding-top: 300px;
-      padding-left: 100px;
-    }
-
-    &_left {
-      padding-top: 150px;
-      padding-left: 100px;
-    }
-
-    &_right-down {
-      padding-top: 300px;
-      padding-left: 500px;
-    }
-  }
-
-  &__article-title {
+  &__title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
-  &__article-text {
+  &__text {
     width: 330px;
     font-size: 10px;
     margin-bottom: 20px;
