@@ -21,24 +21,39 @@
     margin-bottom: 10px;
     cursor: pointer;
 
-    &_social {
-      display: flex;
-    }
-
     &_contact {
       width: 150px;
       text-transform: none;
     }
   }
 
-  &__social-icon {
-    width: 24px;
-    height: 24px;;
-    margin-right: 20px;
-  }
+  &__social {
+    position: relative;
+    margin-left: 30px;
+    height: 12px;
+    line-height: 12px;
 
-  &__social-name {
-    height: 24px;
-    line-height: 24px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: -30px;
+      width: 24px;
+      height: 24px;;
+      margin-right: 10px;
+      background-repeat: no-repeat;
+      background-size: 50%;
+    }
+
+    &_facebook::before {
+      background-image: url('../img/facebook-logo.png');
+    }
+
+    &_odnoklassniki::before {
+      background-image: url('../img/odnonklassniki-logo.png');
+    }
+
+    &_instagram::before {
+      background-image: url('../img/instagram-logo.png');
+    }
   }
 }
