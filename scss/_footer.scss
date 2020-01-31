@@ -1,24 +1,24 @@
 .fs-footer {
-  text-transform: uppercase;
+  width: 100%;
 
   &__content {
     display: flex;
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   &__column {
-    margin-right: 70px;
+    margin-right: 160px;
   }
 
   &__section-header {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   &__section-item {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
     cursor: pointer;
 
     &_contact {
