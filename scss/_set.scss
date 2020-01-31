@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     height: 30px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 
     &_instagram {
@@ -38,7 +38,7 @@
   &__footer {
     height: 30px;
     line-height: 30px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   &__pictures {
@@ -48,6 +48,6 @@
   &__pictures-set {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 630px
   }
 }
