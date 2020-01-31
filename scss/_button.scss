@@ -1,7 +1,7 @@
 .fs-button {
-  height: 40px;
+  height: 50px;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   background-color: #000;
   border: 1px solid #fff;
@@ -11,14 +11,16 @@
   }
 
   &_add-bag {
-    padding: 0 20px;
+    padding: 0 30px;
+    margin-bottom: 50px;
   }
 
   &_add-wishlist {
-    width: 40px;
+    width: 50px;
     background-image: url('../img/wishlist-icon.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 50%;
   }
 
   &_remove {
