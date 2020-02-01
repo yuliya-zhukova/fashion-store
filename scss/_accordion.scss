@@ -13,22 +13,27 @@
   }
 
   &__container-header {
+    position: relative;
     display: flex;
+    margin-left: 30px;
     height: 30px;
     font-size: 12px;
     cursor: pointer;
-  }
 
-  &__sign {
-    margin-right: 20px;
-    width: 10px;
-    height: 10px;
-    background-image: url('../img/expand-icon.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
+    &::before {
+      position: absolute;
+      content: "";
+      left: -30px;
+      width: 10px;
+      height: 10px;
+      background-image: url('../img/expand-icon.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 80%;
+    }
 
-    &_checked {
+
+    &_checked::before {
       background-image: url('../img/collapse-icon.png');
     }
   }
