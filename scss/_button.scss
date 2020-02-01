@@ -46,6 +46,9 @@
   }
 
   &_join {
+    position: absolute;
+    right: 0;
+    top: -10px;
     color: #000;
     background-color: transparent;
     border: none;
