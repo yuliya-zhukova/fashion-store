@@ -5,7 +5,20 @@
   &__header {
     margin: 40px 0;
     font-size: 12px;
-    color: #999
+    color: #999;
+
+    &_customer-service {
+      font-size: 18px;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+
+  &__container {
+    &_customer-service {
+      border-bottom: 1px solid #e5e5e5;
+    }
   }
 
   &__input {
@@ -20,6 +33,11 @@
     font-size: 12px;
     cursor: pointer;
 
+    &_customer-service {
+      font-size: 16px;
+      margin: 20px 0 10px 40px;
+    }
+
     &::before {
       position: absolute;
       content: "";
@@ -30,6 +48,12 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 80%;
+    }
+
+    &_customer-service::before {
+      left: -35px;
+      top: 5px;
+      background-size: 100%;
     }
 
 
@@ -45,6 +69,10 @@
     text-transform: none;
     margin-left: 20px;
     margin-bottom: 20px;
+
+    &_customer-service {
+      margin-left: 40px;
+    }
   }
 
   &__input:checked ~ &__container-content {
