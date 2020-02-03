@@ -15,6 +15,13 @@
     }
   }
 
+  &__info {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #000;
+    text-transform: none;
+  }
+
   &__container {
     &_customer-service {
       border-bottom: 1px solid #e5e5e5;
@@ -55,7 +62,6 @@
       top: 5px;
       background-size: 100%;
     }
-
 
     &_checked::before {
       background-image: url('../img/collapse-icon.png');
