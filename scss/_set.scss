@@ -36,19 +36,10 @@
   }
 
   &__footer {
-    position: relative;
+    display: flex;
+    justify-content: flex-start;
     height: 30px;
-    margin-left: 10px;
-    line-height: 30px;
     font-size: 16px;
-
-    &_instagram::before {
-      position: absolute;
-      content: "#";
-      left: -10px;
-      width: 20px;
-      height: 20px;
-    }
   }
 
   &__pictures {
@@ -59,5 +50,19 @@
     display: flex;
     flex-wrap: wrap;
     width: 630px
+  }
+
+  &__hashtag {
+    position: relative;
+    margin: 0 10px;
+    cursor: pointer;
+
+    &::before {
+      position: absolute;
+      content: "#";
+      left: -10px;
+      width: 20px;
+      height: 20px;
+    }
   }
 }
