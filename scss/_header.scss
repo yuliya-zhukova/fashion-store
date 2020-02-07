@@ -84,4 +84,25 @@
       color: #fff;
     }
   }
+
+  &__wish-list {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-size: 40%;
+    }
+
+    &_white::before {
+      background-image: url('../img/wishlist-icon.png');
+    }
+
+    &_black::before {
+      background-image: url('../img/wishlist-icon-black.png');
+    }
+  }
 }
