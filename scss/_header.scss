@@ -2,6 +2,7 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0 50px;
   color: #fff;
@@ -17,7 +18,7 @@
   &__menu {
     display: flex;
     font-size: 12px;
-    margin-top: 20px;
+    // margin-top: 20px;
   }
 
   &__menu-item {
@@ -28,7 +29,7 @@
   &__communication {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    // margin-top: 20px;
     font-size: 12px;
   }
 
