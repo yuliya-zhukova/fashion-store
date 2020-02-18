@@ -65,4 +65,27 @@
     margin: 0 auto;
     padding: 0 80px;
   }
-}
+
+  &_close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url('../img/remove-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+
+  &_bag-modal {
+    margin-bottom: 5px;
+    border: 1px solid #000;
+
+    &-view {
+      color: #000;
+      background-color: transparent;
+    }
+  }
+
