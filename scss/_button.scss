@@ -82,6 +82,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
+
+    &-su {
+      top: 40px;
+      right: 40px;
+      background-size: 100%;
+    }
   }
 
   &_bag-modal {
