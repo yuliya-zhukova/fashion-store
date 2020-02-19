@@ -5,7 +5,13 @@
   width: 340px;
   height: 100%;
   padding: 10px;
+  box-sizing: border-box;
 
   outline: 1px solid #e5e5e5;
+
+  &__item {
+    position: relative;
+    margin-bottom: 10px;
+  }
 
 }
