@@ -9,17 +9,6 @@
   padding: 40px 50px;
   box-sizing: border-box;
 
-  &__close-icon {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/close-icon.png');
-    background-repeat: no-repeat;
-    background-size: 50%;
-  }
-
   &__header {
     font-size: 24px;
     margin-bottom: 40px;
