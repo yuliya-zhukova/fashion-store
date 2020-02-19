@@ -31,15 +31,20 @@
     color: #333;
     background-color: transparent;
     outline: none;
+    border: none;
+
+    &-bag-modal {
+      top: 10px;
+      right: 10px;
+    }
 
     &::before {
       position: absolute;
-      left: -30px;
+      left: -20px;
       content: "";
       width: 20px;
       height: 20px;
       background-image: url('../img/remove-icon.png');
-      background-position: center;
       background-repeat: no-repeat;
       background-size: 75%;
     }
