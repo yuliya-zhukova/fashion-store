@@ -68,8 +68,8 @@
 
   &_close {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
     width: 20px;
     height: 20px;
     background-color: transparent;
@@ -80,7 +80,7 @@
   }
 
   &_bag-modal {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border: 1px solid #000;
 
     &-view {
