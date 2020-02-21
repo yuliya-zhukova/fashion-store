@@ -20,4 +20,14 @@
       margin-top: 150px;
     }
   }
+
+  &__sort {
+    display: flex;
+    margin-top: 20px;
+    font-size: 12px;
+
+    &-type {
+      margin-right: 10px;
+    }
+  }
 }
