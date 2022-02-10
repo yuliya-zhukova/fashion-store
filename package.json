@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/yuliya-zhukova/fashion-store#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "rimraf": "^3.0.0"
   }
 }
